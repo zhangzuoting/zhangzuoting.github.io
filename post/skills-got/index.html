@@ -7,7 +7,7 @@
 <meta name="description" content="更高,更快,更强">
 <meta name="theme-color" content="#000">
 <title>skills got | Jackie的学习笔记</title>
-<link rel="shortcut icon" href="https://zhangzuoting.github.io/favicon.ico?v=1582034424737">
+<link rel="shortcut icon" href="https://zhangzuoting.github.io/favicon.ico?v=1582034489018">
 <link rel="stylesheet" href="https://zhangzuoting.github.io/styles/main.css">
 
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -364,6 +364,42 @@
   </div>
   
   
+  
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" id="aplayer"></div>
+  <input hidden id="player_cover" value="" />
+  <div class="music-list">
+  
+  </div>
+  <script>
+  let musics = document.querySelector('.music-list').children;
+  let mediaMusic = [];
+  let cover = document.querySelector('#player_cover').value;
+  for (let i = 0; i < musics.length; i++) {
+    let item = musics[i];
+    let splits = item.value.split(',');
+    mediaMusic.push({
+      name: splits[0],
+      artist: splits[1],
+      url: splits[2],
+      lrc: splits[3],
+      cover: cover
+    });
+  }
+  console.log(mediaMusic);
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: mediaMusic
+  });
+  </script>
+
+
   
 </div>
 <script>
