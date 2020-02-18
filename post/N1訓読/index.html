@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="更高,更快,更强">
+<meta name="theme-color" content="#000">
+<title>N1訓読 | Jackie的学习笔记</title>
+<link rel="shortcut icon" href="https://zhangzuoting.github.io/favicon.ico?v=1582033712599">
+<link rel="stylesheet" href="https://zhangzuoting.github.io/styles/main.css">
+
+<link rel="stylesheet" href="/media/css/gemini.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css" rel="stylesheet">  
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+    <meta name="description" content="N1訓読" />
+    <meta name="keywords" content="N1" />
+  </head>
+  <body>
+    <div class="head-top-line"></div>
+    <div class="header-box">
+      
+<div class=" gemini">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>Jackie的学习笔记</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">听从自己的内心</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            <li class="nav-item ">
+              
+                <a href="/">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="/archives">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="/tags">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="/post/about">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          <li class="nav-item">
+            <a>
+              <i class="fa fa-search"></i> 搜索
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+    </div>
+    <div class="main-continer">
+      
+      <div class="section-layout gemini ">
+        <div class="section-layout-wrapper">
+          
+
+<div class="sidebar">
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="https://zhangzuoting.github.io/images/avatar.png"/>
+    <p class="site-author-name">Jackie的学习笔记</p>
+    <p class="site-description right-motion">这个人很懒，什么都不想写...</p>
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">13</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">5</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">5</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc; margin-top: 10px;">
+      </div>
+    
+  
+  
+
+
+</div>
+        
+      </div>
+    </div>
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+
+  if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+    let hasFix = false;
+    let scrollEl = document.querySelector('.main-continer');
+    let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+    window.addEventListener('scroll', function(e) {
+    if (document.scrollingElement.scrollTop >= limitTop) {
+      if (!hasFix) {
+        sidebar.classList.add('sidebar-fixed');
+        hasFix = true;
+      }
+    } else {
+      if (hasFix) {
+        sidebar.classList.remove('sidebar-fixed');
+        hasFix = false;
+      }
+    }
+  });
+  }
+  
+</script>
+          <div class="section-box box-shadow-wrapper">
+            <div class="section bg-color post post-page">
+              <div class="article-box">
+    <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://zhangzuoting.github.io/post/N1訓読/">
+      N1訓読
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2019-11-10</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+      <span class="meta-item">
+        <i class="fa fa-folder-o"></i>
+        <span class="pc-show">分类于</span>
+        
+          
+            <a href="https://zhangzuoting.github.io/tag/sk6PV8kle/">
+              <span>N1</span>
+            </a>
+          
+        
+      </span>
+      <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>6分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1176<span class="pc-show">字数</span></span>
+    </span>
+  </div>
+</header>
+</div>
+              <div class="post-body next-md-body" id="post_body">
+                <table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>儲かる</td>
+<td>もうかる</td>
+<td></td>
+</tr>
+<tr>
+<td>２</td>
+<td>崩される</td>
+<td>くずされる</td>
+<td></td>
+</tr>
+<tr>
+<td>３</td>
+<td>倒される</td>
+<td>たおされる</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>潰される</td>
+<td>つぶされる</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>賄う</td>
+<td>まかなう</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>商う</td>
+<td>あきなう</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>潤う</td>
+<td>うるおう</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>壊される</td>
+<td>こわされる</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>華々しい</td>
+<td>はなばなしい</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>重々しい</td>
+<td>おもおもしい</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>物々しい</td>
+<td>ものものしい</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>騒々しい</td>
+<td>そうぞうしい</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>図々しい</td>
+<td>ずうずうしい</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>馴染む</td>
+<td>なじむ</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>恵まれる</td>
+<td>めぐまれる</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>逆らう</td>
+<td>さからう</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>飽きる</td>
+<td>あきる</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>慣れる</td>
+<td>なれる</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>張り合う</td>
+<td>はり合う</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>嬉しい</td>
+<td>うれしい</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>珍しい</td>
+<td>めずらしい</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>煩わしい</td>
+<td>わずらわしい</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>苦手</td>
+<td>にがて</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>嫌味</td>
+<td>いやみ</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>潔い</td>
+<td>いさぎよい</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>騒ぐ</td>
+<td>さわぐ</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>賑わう</td>
+<td>にぎわう</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>囲む</td>
+<td>かこむ</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>揃う</td>
+<td>そろう</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>元金</td>
+<td>もときん</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>本筋</td>
+<td>ほんすじ</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>極めて</td>
+<td>きわめて</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>改めて</td>
+<td>あらためて</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>努めて</td>
+<td>つとめて</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>突き詰めて</td>
+<td>つきつめて</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>外れる</td>
+<td>はずれる</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>募って</td>
+<td>つのって</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>掘る</td>
+<td>ほる</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>練る</td>
+<td>ねる</td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td>絡めた</td>
+<td>からめた</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>緩める</td>
+<td>ゆるめる</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>嵌めた</td>
+<td>はめた</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>締めた</td>
+<td>しめた</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>投じた</td>
+<td>とうじた</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>報じた</td>
+<td>ほうじた</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>及ぼす</td>
+<td>およぼす</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>授ける</td>
+<td>さずける</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>費やす</td>
+<td>ついやす</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>掲げる</td>
+<td>かかげる</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>疎ら</td>
+<td>まばら</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>真面目だ</td>
+<td>まじめだ</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>不真面目だ</td>
+<td>ふまじめだ</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>見合わせる</td>
+<td>みあわせる</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>止むを得ず</td>
+<td>やむをえず</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>仕方</td>
+<td>しかた</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>間もなく</td>
+<td>まもなく</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>思いがけなく</td>
+<td>おもいがけなく</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>限りなく</td>
+<td>かぎりなく</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>心細い</td>
+<td>こころぼそい</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>細かい</td>
+<td>こまかい</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>詳しい</td>
+<td>くわしい</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>趣旨</td>
+<td>しゅし</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>先端</td>
+<td>せんたん</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>目先</td>
+<td>めさき</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>見過ごす</td>
+<td>みすごす</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>見下ろす</td>
+<td>みおろす</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>見逃す</td>
+<td>みのがす</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>見落す</td>
+<td>みおとす</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>逃れた</td>
+<td>のがれた</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>離れた</td>
+<td>はなれた</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>逸れた</td>
+<td>それた</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>免れた</td>
+<td>まぬがれた</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>妨げる</td>
+<td>さまたげる</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>遮る</td>
+<td>さえぎる</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>狭める</td>
+<td>せばめる</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>隔てる</td>
+<td>へだてる</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>塗れる</td>
+<td>まみれ</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>尽くめ</td>
+<td>ずくめ</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>舞う</td>
+<td>まう</td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td>弾む</td>
+<td>はずむ</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>転がる</td>
+<td>ころがる</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>跳ねる</td>
+<td>はねる</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>玄人</td>
+<td>くろうと</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>深み</td>
+<td>ふかみ</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>画期的な</td>
+<td>かっきてきな</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>目論む</td>
+<td>もくろむ</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>計画</td>
+<td>けいかく</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>果たす</td>
+<td>はたす</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>諦める</td>
+<td>あきらめる</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>手がかり</td>
+<td>てがかり</td>
+<td>线索</td>
+</tr>
+<tr>
+<td>11</td>
+<td>素直</td>
+<td>すなお</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>弱気</td>
+<td>よわき</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>憂さ</td>
+<td>うさ</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>叶う</td>
+<td>かなう</td>
+<td>能实现，如愿以偿</td>
+</tr>
+<tr>
+<td>15</td>
+<td>目覚ましい</td>
+<td>めざましい</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>恐ろしい</td>
+<td>おそろしい</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>鮮やか</td>
+<td>あざやか</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>スッキリ</td>
+<td>すっきり</td>
+<td>舒畅，轻松</td>
+</tr>
+<tr>
+<td>19</td>
+<td>緩む</td>
+<td>ゆるむ</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>解ける</td>
+<td>ほどける</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>溶ける</td>
+<td>とける</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>出張</td>
+<td>しゅっちょう</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>鈍る</td>
+<td>にぶる</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>滞る</td>
+<td>とどこおる</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>劣る</td>
+<td>おとる</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>縮まる</td>
+<td>ちぢまる</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>印</td>
+<td>しるし</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>証</td>
+<td>あかし</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>兆し</td>
+<td>きざし</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>日差し</td>
+<td>ひざし</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>真心</td>
+<td>まごころ</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>気心</td>
+<td>きごころ</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>摘出</td>
+<td>てきしゅつ</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>的確</td>
+<td>てきかく</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>積極的</td>
+<td>せっきょくてき</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>否定的</td>
+<td>ひていてき</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>歴然</td>
+<td>れきぜん</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>少しずつ</td>
+<td>すこしずつ</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>大幅</td>
+<td>おおはば</td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td>真っ先に</td>
+<td>まっさきに</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>格安</td>
+<td>かくやす</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>見逃さず</strong></td>
+<td><strong>みのがさず</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>見落として</td>
+<td>みおとして</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>見捨てる</td>
+<td>みすてる</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>見失う</td>
+<td>みうしなう</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>翻す</td>
+<td>ひるがえす</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>覆す</td>
+<td>くつがえす</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>惑わす</td>
+<td>まどわす</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>揺るがす</td>
+<td>ゆるがす</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>心地よい</td>
+<td>ここちよい</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>大筋</td>
+<td>おおすじ</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>大口</td>
+<td>おおぐち</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>大台</td>
+<td>おおだい</td>
+<td>股票术语，大界限</td>
+</tr>
+<tr>
+<td>14</td>
+<td>版</td>
+<td>はん</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>悩ましい</td>
+<td>なやましい</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>疑わしい</td>
+<td>うたがわしい</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>紛らわしい</td>
+<td>まぎらわしい</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>煩わしい</td>
+<td>わずらわしい</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>施されて</td>
+<td>ほどこされて</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>催されて</td>
+<td>もよおされて</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>設けられて</td>
+<td>もうけられて</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>挙げられて</td>
+<td>あげられて</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>張り切って</td>
+<td>はりきって</td>
+<td>有精神，紧张，鼓足干劲</td>
+</tr>
+<tr>
+<td>24</td>
+<td>望んだ</td>
+<td>のぞんだ</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>怠けて</td>
+<td>なまけて</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>厭う</td>
+<td>いとう</td>
+<td>厂昌犬　厌，嫌</td>
+</tr>
+<tr>
+<td>27</td>
+<td>怠る</td>
+<td>おこたる</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>見込み</td>
+<td>みこみ</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>構わない</td>
+<td>かまわない</td>
+<td>不在乎</td>
+</tr>
+<tr>
+<td>30</td>
+<td>溝</td>
+<td>みぞ</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>淵</td>
+<td>ふち</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>冷やす</td>
+<td>ひやす</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>費やす</td>
+<td>ついやす</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>手際</td>
+<td>てぎわ</td>
+<td>手法，技巧，本领</td>
+</tr>
+<tr>
+<td>35</td>
+<td>即刻</td>
+<td>そっこく</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>人込み</td>
+<td>ひとごみ</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>人波</td>
+<td>ひとなみ</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>人通り</td>
+<td>ひとどおり</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>人出</td>
+<td>ひとで</td>
+<td>外出的人群</td>
+</tr>
+<tr>
+<td>40</td>
+<td>弱って</td>
+<td>よわって</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>和らいで</td>
+<td>やわらいで</td>
+<td>缓和起来</td>
+</tr>
+<tr>
+<td>2</td>
+<td>薄まって</td>
+<td>うすまって</td>
+<td>变淡</td>
+</tr>
+<tr>
+<td>3</td>
+<td>安らいで</td>
+<td>やすらいで</td>
+<td>安乐，安稳，平静</td>
+</tr>
+<tr>
+<td>4</td>
+<td>大して</td>
+<td>たいして</td>
+<td>并不那么</td>
+</tr>
+<tr>
+<td>5</td>
+<td>貶される</td>
+<td>けなされる</td>
+<td>被贬低</td>
+</tr>
+<tr>
+<td>6</td>
+<td>潜める</td>
+<td>ひそめる</td>
+<td>隐藏，掩盖，掩饰</td>
+</tr>
+<tr>
+<td>7</td>
+<td>抑える</td>
+<td>おさえる</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>我慢する</td>
+<td>がまんする</td>
+<td>忍耐</td>
+</tr>
+<tr>
+<td>9</td>
+<td>仕業</td>
+<td>しわざ</td>
+<td>勾当，做的不好的行为</td>
+</tr>
+<tr>
+<td>10</td>
+<td>拘る</td>
+<td>こだわる</td>
+<td>拘泥于某事</td>
+</tr>
+<tr>
+<td>11</td>
+<td>延べ</td>
+<td>のべ</td>
+<td>总</td>
+</tr>
+<tr>
+<td>12</td>
+<td>総じて</td>
+<td>そうじて</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>強か</td>
+<td>したたか</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>秘か</td>
+<td>ひそか</td>
+<td>秘密，暗中，悄悄</td>
+</tr>
+<tr>
+<td>15</td>
+<td>愚か</td>
+<td>おろか</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>集い</td>
+<td>つどい</td>
+<td>集会</td>
+</tr>
+<tr>
+<td>17</td>
+<td>憩い</td>
+<td>いこい</td>
+<td>休息</td>
+</tr>
+<tr>
+<td>18</td>
+<td>積立</td>
+<td>つみたて</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>引き落と</td>
+<td>ひきおと</td>
+<td>扣款</td>
+</tr>
+<tr>
+<td>20</td>
+<td>立替える</td>
+<td>たてかえる</td>
+<td>代付</td>
+</tr>
+<tr>
+<td>21</td>
+<td>差し引く</td>
+<td>さしひく</td>
+<td>扣除，相抵，增减</td>
+</tr>
+<tr>
+<td>22</td>
+<td>直向き</td>
+<td>ひたむき</td>
+<td>一个劲儿的</td>
+</tr>
+<tr>
+<td>23</td>
+<td>無性に</td>
+<td>むしょうに</td>
+<td>非常 困得要死</td>
+</tr>
+<tr>
+<td>24</td>
+<td>頑なに</td>
+<td>かたくなに</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>一途に</td>
+<td>いちずに</td>
+<td>一味，专心</td>
+</tr>
+<tr>
+<td>26</td>
+<td>気に障る</td>
+<td>きにさわる</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>絡む</td>
+<td>からむ</td>
+<td>胡搅蛮缠</td>
+</tr>
+<tr>
+<td>28</td>
+<td>逆らう</td>
+<td>さからう</td>
+<td>逆，反；违背</td>
+</tr>
+<tr>
+<td>29</td>
+<td>改めて</td>
+<td>あらためて</td>
+<td>重新</td>
+</tr>
+<tr>
+<td>30</td>
+<td>驚い</td>
+<td>おどろい</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>面影</td>
+<td>おもかげ</td>
+<td>心中浮现的面貌</td>
+</tr>
+<tr>
+<td>32</td>
+<td>雰囲気</td>
+<td>ふんいき</td>
+<td>气氛</td>
+</tr>
+<tr>
+<td>33</td>
+<td>合致</td>
+<td>がっち</td>
+<td>一致，吻合</td>
+</tr>
+<tr>
+<td>34</td>
+<td>焦り</td>
+<td>あせり</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>憤り</td>
+<td>いきどおり</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>怒り</td>
+<td>おこり</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>日夜</td>
+<td>にちや</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>貫く</td>
+<td>つらぬく</td>
+<td>贯穿，贯通</td>
+</tr>
+<tr>
+<td>39</td>
+<td>培う</td>
+<td>つちかう</td>
+<td>栽培</td>
+</tr>
+<tr>
+<td>40</td>
+<td>築く</td>
+<td>きずく</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>文字</th>
+<th>訓読</th>
+<th>音読</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>磨く</td>
+<td>みがく</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>担う</td>
+<td>になう</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>労る</td>
+<td>いたわる</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>養う</td>
+<td>やしなう</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>掲げる</td>
+<td>かかげる</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>素振り</td>
+<td>そぶり</td>
+<td>态度，举止</td>
+</tr>
+<tr>
+<td>7</td>
+<td>仕業</td>
+<td>しわざ</td>
+<td>行为，勾当</td>
+</tr>
+<tr>
+<td>8</td>
+<td>腕前</td>
+<td>うでまえ</td>
+<td>本事，才干</td>
+</tr>
+<tr>
+<td>9</td>
+<td>手間</td>
+<td>てま</td>
+<td>工作所需的时间，劳力</td>
+</tr>
+<tr>
+<td>10</td>
+<td>案じる</td>
+<td>あんじる</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>避ける</td>
+<td>よける</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>暗闇</td>
+<td>くらやみ</td>
+<td>黑暗，暗处</td>
+</tr>
+<tr>
+<td>13</td>
+<td>裏付け</td>
+<td>うらづけ</td>
+<td>确凿的证据</td>
+</tr>
+<tr>
+<td>14</td>
+<td>急かす</td>
+<td>せかす</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>困らせる</td>
+<td>こまらせる</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>持ちかける</td>
+<td>もちかける</td>
+<td>开口，说起，提出</td>
+</tr>
+<tr>
+<td>17</td>
+<td>口出し</td>
+<td>くちだし</td>
+<td>插嘴，多言</td>
+</tr>
+<tr>
+<td>18</td>
+<td>応える</td>
+<td>こたえる</td>
+<td>回答，响应</td>
+</tr>
+<tr>
+<td>19</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+              </div>
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      Jackie的学习笔记
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://zhangzuoting.github.io/post/N1訓読/" title="N1訓読">N1訓読</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://zhangzuoting.github.io/tag/sk6PV8kle/"># N1</a>
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+        <i class="fa fa-chevron-left"></i>
+        <a class="nav-pc-next" title="N1音読" href="https://zhangzuoting.github.io/post/N1 音読/">N1音読</a class="nav-pc-next">
+        <a class="nav-mobile-prev" title="N1音読" href="https://zhangzuoting.github.io/post/N1 音読/">上一篇</a>
+      
+    </div>
+    <div class="nav-next">
+      
+        <a class="nav-pc-next" title="Country Names" href="https://zhangzuoting.github.io/post/Country-Names/">Country Names</a>
+        <a class="nav-mobile-next" title="Country Names" href="https://zhangzuoting.github.io/post/Country-Names/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
+      
+    </div>
+  </div>
+</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" id="aplayer"></div>
+  <input hidden id="player_cover" value="" />
+  <div class="music-list">
+  
+  </div>
+  <script>
+  let musics = document.querySelector('.music-list').children;
+  let mediaMusic = [];
+  let cover = document.querySelector('#player_cover').value;
+  for (let i = 0; i < musics.length; i++) {
+    let item = musics[i];
+    let splits = item.value.split(',');
+    mediaMusic.push({
+      name: splits[0],
+      artist: splits[1],
+      url: splits[2],
+      lrc: splits[3],
+      cover: cover
+    });
+  }
+  console.log(mediaMusic);
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: mediaMusic
+  });
+  </script>
+
+
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+    </div>
+  </body>
+  <script src="/media/js/motion.js"></script>
+</html>
