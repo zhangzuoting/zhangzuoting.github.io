@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangzuoting.github.io</id>
     <title>Jackie的学习笔记</title>
-    <updated>2020-02-18T14:06:53.739Z</updated>
+    <updated>2020-02-18T14:14:26.929Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangzuoting.github.io"/>
     <link rel="self" href="https://zhangzuoting.github.io/atom.xml"/>
@@ -5069,7 +5069,7 @@
         <id>https://zhangzuoting.github.io/post/Personal Navi/</id>
         <link href="https://zhangzuoting.github.io/post/Personal Navi/">
         </link>
-        <updated>2019-10-14T06:50:45.000Z</updated>
+        <updated>2019-10-14T07:50:45.000Z</updated>
         <content type="html"><![CDATA[<h2 id="电通网页">电通网页</h2>
 <p>1.<a href="https://www.cc.uec.ac.jp/portal/">UEC ITC</a></p>
 <p>2.<a href="http://kyoumu.office.uec.ac.jp/kyuukou/">休講</a></p>
@@ -5090,6 +5090,7 @@
 <p>1.<a href="http://gen.lib.rus.ec/">E-book search</a></p>
 <p>2.<a href="https://www.amazon.co.jp">Amazon</a></p>
 <p>3.<a href="https://www.shinagawa-lib.jp/opw/OPW/OPWUSERCONF.CSP">品川图书馆</a></p>
+<p>4.<a href="http://b-ok.org">b-ok</a></p>
 <h2 id="大学院履修课程">大学院履修课程</h2>
 <p>1.情报网络：<a href="https://www.infraexpert.com/">ネットワークエンジニア　Blog</a></p>
 <p>2.ネットワークアプリケーション：<a href="http://pr.cei.uec.ac.jp/~terada/lectures/protocol/2019/">講義</a></p>
