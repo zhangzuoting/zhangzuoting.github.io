@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangzuoting.github.io</id>
     <title>Jackie的学习笔记</title>
-    <updated>2020-02-18T23:41:49.518Z</updated>
+    <updated>2020-02-22T00:30:01.243Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangzuoting.github.io"/>
     <link rel="self" href="https://zhangzuoting.github.io/atom.xml"/>
@@ -5069,7 +5069,7 @@
         <id>https://zhangzuoting.github.io/post/Personal Navi/</id>
         <link href="https://zhangzuoting.github.io/post/Personal Navi/">
         </link>
-        <updated>2019-10-14T07:50:45.000Z</updated>
+        <updated>2019-10-14T09:50:45.000Z</updated>
         <content type="html"><![CDATA[<h2 id="电通网页">电通网页</h2>
 <p>1.<a href="https://www.cc.uec.ac.jp/portal/">UEC ITC</a></p>
 <p>2.<a href="http://kyoumu.office.uec.ac.jp/kyuukou/">休講</a></p>
@@ -5103,6 +5103,8 @@
 <p>6.<a href="https://github.com/QSCTech/zju-icicles">浙大大学课程资源</a></p>
 <p>7.<a href="https://github.com/lib-pku/libpku">北大大学课程资源</a></p>
 <p>8.<a href="https://inst.eecs.berkeley.edu/~cs61b/fa19/">CS61B</a></p>
+<p>9.[艺术作品下载] (https://useum.org/)</p>
+<p>10.[资格考试汇总] (https://shikaku-fan.net/)</p>
 <hr>
 <p>软件下载页：</p>
 <p>1.<a href="https://rime.im/">RIME小狼豪输入法</a></p>
